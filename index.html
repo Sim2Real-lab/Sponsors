@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Sponsorship - Sim2Real</title>
+    <!-- Use Tailwind CSS for easy styling and responsiveness -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #111827; /* Dark background */
+            color: #E5E7EB; /* Light text */
+        }
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #6EE7B7, #3B82F6);
+        }
+        .cta-button {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- Hero Section with a more dynamic design -->
+    <header class="relative overflow-hidden bg-gray-900 py-24 sm:py-32 lg:py-40">
+        <div class="absolute inset-0">
+            <!-- Background pattern for visual interest -->
+            <div class="absolute inset-0 z-0 opacity-20" style="background-image: radial-gradient(#6B7280 1px, transparent 1px); background-size: 20px 20px;"></div>
+        </div>
+        <div class="container mx-auto px-6 sm:px-8 lg:px-12 relative z-10 text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold tracking-tight font-poppins">
+                Partner with <span class="text-gradient">Innovation</span>
+            </h1>
+            <p class="mt-4 text-xl sm:text-2xl max-w-4xl mx-auto font-light leading-relaxed">
+                Empower the next generation of engineers by sponsoring Sim2Real, a flagship robotics hackathon by RoboTech NITK.
+            </p>
+            <!-- High-CTR Call to Action Button -->
+            <a href="#contact" class="mt-8 inline-block px-10 py-4 text-lg font-bold text-white bg-indigo-600 rounded-full shadow-lg hover:bg-indigo-500 cta-button">
+                Become a Sponsor
+            </a>
+        </div>
+    </header>
+
+    <main class="py-12 px-6 sm:px-8 lg:px-12">
+        <!-- Section: About NITK -->
+        <section id="about-nitk" class="container mx-auto my-20 p-8 bg-gray-800 rounded-3xl shadow-2xl border-t border-indigo-500">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2">
+                    <h3 class="text-4xl font-bold text-indigo-400 mb-4 font-poppins">About NITK</h3>
+                    <p class="text-gray-300 leading-relaxed text-lg mb-4">
+                        National Institute of Technology Karnataka (NITK) Surathkal is one of India’s premier engineering institutions, renowned for academic excellence and innovation. With a legacy of producing top engineers, entrepreneurs, and leaders, NITK fosters research, creativity, and social impact.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed font-semibold">
+                        <span class="text-indigo-400">NIRF has ranked NITK 17th</span> among technical institutes and 2nd among NITs.
+                    </p>
+                </div>
+                <div class="lg:w-1/2 flex justify-center">
+                    <img src="https://placehold.co/600x400/1F2937/9CA3AF?text=NITK+Building" alt="NITK Surathkal" class="rounded-2xl shadow-md w-full max-w-md border-2 border-indigo-600">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: About Sim2Real & Team -->
+        <section id="about-sim2real" class="container mx-auto my-20 p-8 bg-gray-800 rounded-3xl shadow-2xl border-t border-indigo-500">
+            <div class="flex flex-col-reverse lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2 flex justify-center">
+                    <img src="https://placehold.co/600x400/1F2937/9CA3AF?text=Sim2Real+Team" alt="Sim2Real Team" class="rounded-2xl shadow-md w-full max-w-md border-2 border-indigo-600">
+                </div>
+                <div class="lg:w-1/2">
+                    <h3 class="text-4xl font-bold text-indigo-400 mb-4 font-poppins">About Sim2Real</h3>
+                    <p class="text-gray-300 leading-relaxed text-lg mb-4">
+                        Sim2Real is a flagship hackathon by RoboTechNITK that bridges the gap between simulation and real-life applications. It's an event that challenges students to apply their skills in a competitive environment.
+                    </p>
+                    <div class="bg-gray-700 p-6 rounded-2xl border border-gray-600 mb-6">
+                        <p class="text-indigo-300 font-bold text-xl">Past Success:</p>
+                        <p class="text-gray-400">Successfully organised the hackathon during Engineer 2024 with more than 40 participants and a ₹30,000 prize pool.</p>
+                    </div>
+                    <h4 class="text-2xl font-bold mt-8 text-indigo-300 mb-2">Our Team</h4>
+                    <p class="text-gray-300 leading-relaxed">
+                        We are a team of passionate and aspiring engineers, whose primary objective is to build an autonomous vehicle capable of maneuvering. We strive to promote our university, partners, and sponsors at National and International levels in robotics challenges.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Why Sponsor Us & What We Need -->
+        <section id="sponsorship" class="container mx-auto my-20 p-8 bg-gray-800 rounded-3xl shadow-2xl border-t border-indigo-500">
+            <h3 class="text-4xl font-bold text-indigo-400 mb-10 text-center font-poppins">Sponsorship</h3>
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div>
+                    <h4 class="text-3xl font-semibold mb-6 text-indigo-300">Why Sponsor Us?</h4>
+                    <ul class="space-y-4 text-lg text-gray-300">
+                        <li class="flex items-start">
+                            <span class="mr-3 text-indigo-400">&#x2713;</span>
+                            <div>
+                                <span class="font-bold">Branding Opportunities:</span> Get your logo placed on all event materials, our website, and social media.
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-3 text-indigo-400">&#x2713;</span>
+                            <div>
+                                <span class="font-bold">Skill Development:</span> Support students in learning advanced tools like crazyswarm for drone and swarm robotics simulation.
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-3 text-indigo-400">&#x2713;</span>
+                            <div>
+                                <span class="font-bold">Talent Acquisition:</span> Gain exclusive visibility among top engineering students and future leaders.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-3xl font-semibold mb-6 text-indigo-300">What We Need</h4>
+                    <p class="text-gray-300 text-lg mb-6">
+                        We are seeking financial support to provide prizes and incentives.
+                    </p>
+                    <div class="bg-indigo-900 p-8 rounded-2xl shadow-xl border border-indigo-700">
+                        <p class="text-2xl font-bold text-white mb-4">Total prize pool: <span class="text-green-400">₹1,00,000</span></p>
+                        <ul class="list-none space-y-2 text-white">
+                            <li><strong>1st Place:</strong> ₹50,000</li>
+                            <li><strong>2nd Place:</strong> ₹30,000</li>
+                            <li><strong>3rd Place:</strong> ₹20,000</li>
+                        </ul>
+                    </div>
+                    <!-- Secondary CTA button -->
+                    <a href="#contact" class="mt-8 inline-block w-full text-center px-10 py-4 text-lg font-bold text-white bg-indigo-600 rounded-full shadow-lg hover:bg-indigo-500 cta-button">
+                        Get in Touch Today
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Sponsor Testimonial & Previous Sponsors -->
+        <section id="sponsors" class="container mx-auto my-20 p-8 bg-gray-800 rounded-3xl shadow-2xl border-t border-indigo-500">
+            <h3 class="text-4xl font-bold text-indigo-400 mb-6 text-center font-poppins">Our Sponsors</h3>
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <!-- Sponsor Testimonial -->
+                <div class="bg-gray-700 p-8 rounded-2xl shadow-inner border border-gray-600">
+                    <h4 class="text-2xl font-semibold text-gray-300 mb-4">Sponsor Testimonial</h4>
+                    <p class="italic text-gray-400 mb-4">
+                        "As the official Cloud Partner and main sponsor, Niveus is proud to collaborate with top academic institutions in building the future of technology. This partnership underscores our commitment to fostering innovation, academic growth, and empowering the next generation of robotics enthusiasts and experts."
+                    </p>
+                    <p class="font-bold text-gray-200">Niveus Solutions</p>
+                </div>
+                <!-- Previous Sponsors Logos -->
+                <div class="flex flex-col items-center">
+                    <h4 class="text-2xl font-semibold text-gray-300 mb-4">Trusted by:</h4>
+                    <div class="flex gap-8 justify-center items-center flex-wrap">
+                        <img src="https://placehold.co/150x150/111827/9CA3AF?text=Niveus+Logo" alt="Niveus Solutions Logo" class="rounded-xl shadow-md p-4 bg-white">
+                        <img src="https://placehold.co/150x150/111827/9CA3AF?text=Quest+Global+Logo" alt="Quest Global Logo" class="rounded-xl shadow-md p-4 bg-white">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Contact Us -->
+        <section id="contact" class="container mx-auto my-20 p-8 bg-indigo-900 text-white rounded-3xl shadow-2xl border-t border-indigo-700">
+            <h3 class="text-4xl font-bold mb-6 text-center font-poppins">Contact Us</h3>
+            <p class="text-xl text-center mb-10 max-w-2xl mx-auto">
+                Ready to make an impact? Get in touch with our team leads to discuss a partnership.
+            </p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Contact Card 1 -->
+                <div class="bg-indigo-800 p-6 rounded-2xl shadow-md hover:bg-indigo-700 transition-colors">
+                    <h4 class="text-xl font-bold">Chinmay K</h4>
+                    <p class="font-semibold text-indigo-300">Convenor</p>
+                    <p class="mt-4"><a href="tel:+919902656758" class="underline text-indigo-100">+91 9902656758</a></p>
+                    <p><a href="mailto:chinmayk.221me115@nitk.edu.in" class="underline text-indigo-100">chinmayk.221me115@nitk.edu.in</a></p>
+                </div>
+                <!-- Contact Card 2 -->
+                <div class="bg-indigo-800 p-6 rounded-2xl shadow-md hover:bg-indigo-700 transition-colors">
+                    <h4 class="text-xl font-bold">Hari Hara</h4>
+                    <p class="font-semibold text-indigo-300">Chief Advisor</p>
+                    <p class="mt-4"><a href="tel:+918123985320" class="underline text-indigo-100">+91 8123985320</a></p>
+                    <p><a href="mailto:ihariharasudar.221me124@nitk.edu.in" class="underline text-indigo-100">ihariharasudar.221me124@nitk.edu.in</a></p>
+                </div>
+                <!-- Contact Card 3 -->
+                <div class="bg-indigo-800 p-6 rounded-2xl shadow-md hover:bg-indigo-700 transition-colors">
+                    <h4 class="text-xl font-bold">Aditya Kumar Sahu</h4>
+                    <p class="font-semibold text-indigo-300">Sim2Real Lead</p>
+                    <p class="mt-4"><a href="tel:+917676202418" class="underline text-indigo-100">+91 7676202418</a></p>
+                    <p><a href="mailto:adityakumarsahu.231mn003@nitk.edu.in" class="underline text-indigo-100">adityakumarsahu.231mn003@nitk.edu.in</a></p>
+                </div>
+                <!-- Contact Card 4 -->
+                <div class="bg-indigo-800 p-6 rounded-2xl shadow-md hover:bg-indigo-700 transition-colors">
+                    <h4 class="text-xl font-bold">Manognya M</h4>
+                    <p class="font-semibold text-indigo-300">Sim2Real Lead</p>
+                    <p class="mt-4"><a href="tel:+918147136467" class="underline text-indigo-100">+91 8147136467</a></p>
+                    <p><a href="mailto:manognyam.231me230@nitk.edu.in" class="underline text-indigo-100">manognyam.231me230@nitk.edu.in</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-6 px-4 rounded-t-3xl border-t border-gray-700">
+        <p>&copy; 2024 RoboTech NITK. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
